@@ -8,6 +8,8 @@
 	grid-template-rows: auto;
 	// This block has customizable padding, border-box makes that more predictable.
 	box-sizing: border-box;
+	// Border radius will be applied in media element
+	overflow: hidden;
 
 	&.has-media-on-the-right {
 		grid-template-columns: 1fr 50%;
